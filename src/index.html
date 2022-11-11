@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Att göra lista</title>
+    <script defer type="module" src="./js/main.js"></script>
+    <script src="https://use.fontawesome.com/ed9852d0ae.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./scss/style.scss" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <h2 class="header__heading">Att göra lista</h2>
+    </header>
+    <form class="form" id="todoform">
+      <input
+        class="form__input"
+        id="todoinput"
+        type="text"
+        placeholder="Vad har du planerat?"
+      />
+      <button class="form__button" type="button" id="button">Lägg till</button>
+    </form>
+    <section>
+      <div id="wrapper" class="todowrapper">
+        <h3 class="todowrapper__heading">Att göra</h3>
+      </div>
+    </section>
+  </body>
+</html>

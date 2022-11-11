@@ -1,0 +1,138 @@
+.todowrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__heading {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(115, 115, 115);
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  &__list {
+    padding: 0px;
+  }
+
+  &__listitem {
+    background-color: rgb(31, 31, 31);
+    width: 400px;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    justify-content: space-between;
+  }
+  &__listitemfinished {
+    color: grey;
+    text-decoration: line-through;
+    background-color: rgb(31, 31, 31);
+    width: 400px;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    justify-content: space-between;
+  }
+
+  &__finishedbutton {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgb(3, 229, 3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &:hover {
+      background-color: rgb(0, 108, 0);
+    }
+  }
+  &__buttonwrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  &__secondbuttonwrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__removebutton {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: rgb(230, 0, 0);
+    &:hover {
+      background-color: rgb(132, 0, 0);
+    }
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &__regretbutton {
+    margin-right: 3px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgb(253, 253, 3);
+    &:hover {
+      background-color: rgb(165, 165, 1);
+    }
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &__moveupbutton {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(184, 9, 184);
+    &:hover {
+      background-color: rgb(138, 0, 138);
+    }
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &__movedownbutton {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: rgb(184, 9, 184);
+    &:hover {
+      background-color: rgb(138, 0, 138);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
